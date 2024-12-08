@@ -1,0 +1,21 @@
+Concepts:
+- Handles complex constructors
+- Large number of parameters
+- Immutability
+
+  Examples:
+    - StringBuilder
+    - DocumentBuilder
+    - Locale.builder
+
+Design:
+- Flexibility when needed multiple types constructors
+- Static inner class
+- Call the appropriate constructor according to the current state
+
+Pitfalls:
+- Immutable
+- Static inner class
+- Designed first
+- Complexity
+- Method returns object

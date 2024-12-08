@@ -1,0 +1,25 @@
+Concepts:
+
+- Only one instance is created
+- Guarantee control of a resource
+- Lazily loaded
+
+Examples from java lib:
+    - Runtime
+    - Logger
+    - Spring Beans
+
+Design:
+- Class is responsible for lifecycle
+- Static in nature
+- Needs to be thread safe
+- Private instance of the class
+- Private constructor
+- No param for constructor
+
+Pitfalls:
+- often overused
+- difficult to test
+- if not careful can be not thread-safe
+- Sometimes confused with factory
+- Confused with Prototype
