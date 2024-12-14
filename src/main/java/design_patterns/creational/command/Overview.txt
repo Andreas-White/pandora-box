@@ -1,0 +1,23 @@
+Concepts:
+- Encapsulates each request as an Object
+- Object oriented callback
+- Decouple sender from processor
+- Often used for "undo" functionality
+
+Examples:
+- Runnable
+- javax.swing.Action
+
+Design:
+- Object per command / breaks concept of OOP
+- Command Interface
+- Execute method
+- "Undo" method
+- Uses Reflection
+- Command (interface), Invoker , ConcreteCommand
+
+Pitfalls:
+- Dependence on other patterns
+- Multiple commands
+- Make use of Memento pattern
+- Prototype pattern for copies

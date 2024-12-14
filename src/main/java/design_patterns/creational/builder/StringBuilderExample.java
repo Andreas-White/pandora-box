@@ -1,6 +1,6 @@
 package design_patterns.creational.builder;
 
-public class JavaStringBuilderExample {
+public class StringBuilderExample {
 
     public static void main(String[] args) {
         StringBuilder stringBuilder = new StringBuilder();

@@ -1,0 +1,23 @@
+Concepts:
+- Decoupling of sender and receiver
+- Receiver contains reference to next receiver
+- Promotes loose coupling
+- May not have a handler
+
+Examples:
+- Logger api
+- javax.servlet.Filter
+- Spring Security Filter Chain
+
+Design:
+- Chain of receiver objects
+- Handler is Interface based
+- ConcreteHandler for each implementation
+- Each Handler has a reference to the next
+- Uml Diagram: Handler (interface), ConcreteHandler
+
+Pitfalls:
+- Handling/Handler guarantee
+- Runtime configuration risk
+- Chain length/performance issues
+- Memory leak

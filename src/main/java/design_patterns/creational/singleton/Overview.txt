@@ -4,10 +4,10 @@ Concepts:
 - Guarantee control of a resource
 - Lazily loaded
 
-Examples from java lib:
-    - Runtime
-    - Logger
-    - Spring Beans
+Examples:
+- Runtime
+- Logger
+- Spring Beans
 
 Design:
 - Class is responsible for lifecycle

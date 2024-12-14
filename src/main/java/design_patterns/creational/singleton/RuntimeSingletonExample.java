@@ -1,6 +1,6 @@
 package design_patterns.creational.singleton;
 
-public class JavaRuntimeSingletonExample {
+public class RuntimeSingletonExample {
 
     public static void main(String[] args) {
         Runtime runtime = Runtime.getRuntime();

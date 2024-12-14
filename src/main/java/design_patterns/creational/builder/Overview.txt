@@ -3,14 +3,14 @@ Concepts:
 - Large number of parameters
 - Immutability
 
-  Examples:
-    - StringBuilder
-    - DocumentBuilder
-    - Locale.builder
+Examples:
+  - StringBuilder
+  - DocumentBuilder
+  - Locale.builder
 
 Design:
 - Flexibility when needed multiple types constructors
-- Static inner class
+- Public static inner class
 - Call the appropriate constructor according to the current state
 
 Pitfalls:
